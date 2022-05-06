@@ -1,0 +1,355 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    /* background-color: #ffffff; */
+}
+.landing
+{
+    height: 2000px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 200px;
+}
+#search
+{
+    position: absolute;
+    top:10%;
+    right: 1%;
+    background:rosybrown;
+    height: 30px;
+    border-radius:100px;
+    padding:5px;
+    font-size: 15px;
+}
+.searchbtn
+{
+    color: #e84118;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    transition: 0.4s;
+}
+#search:hover>.searchtxt
+{
+    width: 240px;
+    padding: 0 6px;
+}
+#search:hover>.searchbtn
+{
+    background: white;
+}
+.searchtxt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding:0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+
+}
+#image img
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 100px;
+}
+#image
+{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    /* background-image: url(hack5.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+    background-color: wheat;
+}
+#text
+{
+    width: 1000px;
+    height: 61px;
+    margin-top: 39px;
+    margin-left: 20%;
+    /* color: black; */
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    font-family: cursive;
+}
+.menubar
+{
+    background-color:transparent;
+    text-align: left;
+    font-weight: bold;
+    /* float: right; */
+    font-size: 17px;
+    margin-top: 3.4%;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menubar ul li
+{
+    width: 180px;
+    margin: 8px;
+    padding: 8px;   
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+}
+.menubar ul li :hover
+{
+    background-color: white;
+    border-radius: 3px;
+}
+.menubar .fa
+{
+    margin: 4px;
+}
+/* li.login{
+    text-align: center;
+} */
+.submenu
+{
+    display: none;
+}
+.menubar ul li:hover .submenu
+{
+    display: block;
+    position: absolute;
+    background-color:white;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: -10px;
+ 
+}
+.menubar ul li:hover .submenu ul
+{
+    display: block;
+    margin: 8px;
+}
+.menubar ul li:hover .submenu ul li
+{
+    width: 130px;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menubar ul li:hover .submenu ul li:last-child
+{
+    border-bottom: none;
+}
+.menubar ul li :hover.submenu ul li a:hover
+{
+    color: yellowgreen;
+}
+.values img
+{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.values
+{
+    margin-top: -200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#para h2
+{
+    width: 600px;
+    height: 61px;
+    margin-top: 39px;
+    margin-left: 400px;
+    color: black;
+    position: relative;
+    max-width: 600px;
+
+}
+ #para h2::after
+{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 230px;
+    top: 20%;
+}
+#para1
+{
+    width: 600px;
+    height: 61px;
+    margin-top: -10px;
+    margin-left: 400px;
+    color: black;
+    position: relative;
+    max-width: 600px;
+}
+.vision img
+{
+    float: right;
+    height: 200px;
+    width: 400px;
+}
+.vision
+{
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid black;
+}
+#para2 h2
+{
+    width: 600px;
+    height: 61px;
+    margin-top: 39px;
+    margin-left:630px;
+    color: black;
+    position: relative;
+    max-width: 600px;
+}
+#para2 h2::before
+{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    background:#000;
+    position: absolute;
+    right: 630px;
+    top:30%
+}
+.mision
+{
+    height: 300px;
+    border: 1px solid black;
+}
+.mision img
+{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+#para3 h2
+{
+    width: 600px;
+    height: 61px;
+    margin-top: 39px;
+    margin-left: 400px;
+    color: black;
+    position: relative;
+    max-width: 600px;
+}
+#para3 h2::after
+{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 230px;
+    top: 20%;
+}
+#para4
+{
+    width: 600px;
+    height: 61px;
+    margin-top: -10px;
+    margin-left: 410px;
+    color: black;
+    position: relative;
+    max-width: 600px;
+}
+#para3 ul li
+{
+    margin-left: 40px;
+}
+#landing2{
+    background-color: wheat;
+    display: flex;
+    font-size: 20px;
+}
+.frspace{
+    margin-right: 10px;
+}
+.MyFlex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 200px;
+    align-items: baseline;
+ 
+}
+
+.contents {
+    display: flex;
+    height: 150px;
+    margin-left: 310px;
+    text-align: center;
+    color: #000;
+}
+.srmlogo2{
+    height: 60px;   
+    float: bottom;
+}
+.Logo{
+    padding: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    float: left;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 10%;
+}
+.Logo1{
+    display: inline-block;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.list{
+    list-style: none;
+}
+.footer-right{
+    margin-left: 380px;
+}
+.list1{
+    list-style: none;
+    text-align: center;
+
+}
+.space{
+    word-spacing: 20px;
+    font-size: 30;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

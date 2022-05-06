@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Montserrat;
+}
+.login
+{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+img
+{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+#text
+{
+    width: 120px;
+    height: 61px;
+    margin-top: 39px;
+    margin-left:140px;
+}
+/* .user
+{
+    height: 202px;
+    border: 1px solid black;
+} */
+.form
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%,-50%);
+    background-color:skyblue;
+    height: 400px;
+    border-radius: 10px;
+}
+.form form
+{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .mail
+{
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 100px 0; 
+}
+.mail input
+{
+    width: 100%;
+    padding:0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+button
+{
+    width: 100%;
+    height: 50px;
+    top: 462px;
+    left: 520px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: blue;
+    color: #e9f4fb;
+    font-weight: 700px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover
+{
+    border-color: blue;
+    transition: .5s;
+}
